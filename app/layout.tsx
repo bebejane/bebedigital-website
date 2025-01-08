@@ -20,14 +20,14 @@ export default async function RootLayout({ children }: LayoutProps) {
 }
 
 export async function generateMetadata() {
-	const title = "Bebe Digtial";
-	const description = "Bebe Digtial is a digital agency based in Lagos, Nigeria.";
+	const title = "Bebe Digital";
+	const description = "";
 
 	return {
 		metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL as string),
 		title: {
-			template: `Bebe Digtial — %s`,
-			default: "Bebe Digtial",
+			template: `Bebe Digital — %s`,
+			default: "Bebe Digital",
 		},
 		description,
 		//image: globalSeo?.fallbackSeo?.image?.url,
